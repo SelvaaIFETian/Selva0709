@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation_1</title>
+    <style>
+        h1{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+        }
+        div{
+            width: 25%;
+            height: 50%;
+            align-items: center;
+            background-color: violet;
+            position: relative;
+            animation-name: ani1;
+            animation-duration: 8s;
+            animation-iteration-count: infinite;
+            animation-delay: 1s;
+            animation-direction: reverse;
+        }
+        @keyframes ani1 {
+            0% {background-color: violet; left: 0px; top: 0px;}
+            12.5% {background-color: indigo; left: 50px; top: px;}
+            25% {background-color: blue; left: 100px; top:0px}
+            37.5% {background-color: green;left: 150px; top:0px}
+            50% {background-color: yellow;left: 150px; top:50px}
+            62.5% {background-color: orange; left: 150px; top:100px}
+            75% {background-color: red; left: 150px; top: 150px;}
+            87.5% {background-color: violet;left: 150px;top: 200px;}
+            100% {background-color: rgb(94, 13, 94);left: 150px;top: 250px;}
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS ANIMATION MOVING BLOCK IN REVERSE MANNER</h1>
+    <div>Hello</div>
+</body>
+</html>
